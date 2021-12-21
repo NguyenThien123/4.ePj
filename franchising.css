@@ -12,6 +12,16 @@ h1 {
     color: black;
     font-weight: 600;
 }
+.info{
+    padding: 0px 10px;
+    border: 1px solid black;
+    display: inline-block;
+    font-weight: 600;
+    background-color: blanchedalmond;
+}
 *{
     font-size: 20px;
+}
+.image0{
+    float: right;
 }
