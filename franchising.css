@@ -1,6 +1,6 @@
 .headline{
     text-align: center;
-
+    background-color: bisque;
 }
 h1 {
     font-size: 20px;
@@ -12,16 +12,42 @@ h1 {
     color: black;
     font-weight: 600;
 }
-.info{
+.info1{
+    background-color: bisque;
+}
+.info2{
+    background-color: bisque;
+}
+.info3{
+    background-color: bisque;
+}
+.info4{
     padding: 0px 10px;
     border: 1px solid black;
-    display: inline-block;
+    
     font-weight: 600;
-    background-color: blanchedalmond;
+    background-image: url(restaurant.jpg);
+    text-align: center;
+    color: khaki;
 }
 *{
     font-size: 20px;
 }
-.image0{
+.image1{
     float: right;
+    padding-right: 50px;
+    padding-top: 90px;
+}
+.image2{
+    float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.image3{
+    float: right;
+    padding-top: 60px;
+    padding-right: 50px;
+}
+body{
+    background-color: cadetblue;
 }
