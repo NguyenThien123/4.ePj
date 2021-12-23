@@ -18,10 +18,15 @@ h2,p {
     
 }
 
-.G1, .G2{
+.G1{
   float: right;
   padding-right: 70px;
-  padding-top: 35px;
+  padding-top: 60px;
+}
+.G2{
+    float: right;
+    padding-right: 70px;
+    padding-top: 120px;  
 }
 .G3{
     float: right;
