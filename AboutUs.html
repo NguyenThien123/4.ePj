@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="AboutUs.css">
+    <style>
+     .Logo {
+            background-color: orange;
+        }
+
+        #menu {
+            background-color: orange;
+            padding: 0.5rem 0;
+            margin: 1%;
+        }
+
+        #cr {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #p1 {
+            background-image: none;
+            background-repeat: no-repeat;
+            background-color: sandybrown;
+            height: 60px;
+            padding: 15px;
+
+            font-size: 1.3rem;
+        }
+
+        span {
+            color: black;
+        }
+
+        .root {
+            float: right;
+
+        }
+
+        ul.root>li {
+            list-style: none;
+            float: left;
+        }
+
+        ul.root>li>a {
+            padding: 35px;
+            position: relative;
+
+        }
+
+        ul.submenu {
+            width: 250px;
+            min-height: 89px;
+            display: none;
+            position: absolute;
+        }
+
+        ul.submenu li {
+            list-style: none;
+        }
+
+        ul.submenu li a {
+            text-transform: none;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            border: 1px solid #ccc;
+            line-height: 40px;
+            text-indent: 10px;
+
+        }
+
+        ul.root>li:hover ul.submenu {
+            display: block;
+
+            background-color: sandybrown;
+            color: cornsilk;
+            transform: ease-in 0.35s;
+
+        }
+
+        ul.submenu li a:hover {
+            background-color: yellow;
+            color: darkblue;
+            transform: ease-in 0.35s;
+        }
+
+        .root>li>a::after {
+            content: "";
+            height: 2.7px;
+            width: 0;
+            background: red;
+            position: absolute;
+            bottom: 20px;
+            left: 1.9rem;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .root>li>a:hover::after {
+            width: 50%;
+            text-decoration: none;
+        }
+
+        #img {
+
+            position: absolute;
+            top: 20px;
+            left: 60px;
+        }
+
+        .input2 {
+            width: 30%;
+            height: 50px;
+            margin-top: 0.5rem;
+            border: tomato double thin;
+            border-radius: 0.2rem;
+
+        }
+
+        #p8 {
+
+            background-color: #070606;
+            height: 85px;
+            padding: 0.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="p1">
+        <div class="menu">
+            <ul class="root">
+                <li><a href=""><span>Home</span> </a></li>
+                <li><a href=""> <span>Menu</span> </a>
+                    <ul class="submenu">
+                        <li><a href="">Fruit juices</a></li>
+                        <li><a href=""> Vegetable Juices</a></li>
+                        <li><a href="">Smoothies</a></li>
+                        <li><a href=""> Protein Shakes</a></li>
+                        <li><a href="">Winter Menu</a></li>
+                        <li><a href="">Chocolate Juices</a></li>
+                        <li><a href="">Mock Tails</a></li>
+                    </ul>
+
+                </li>
+                <li><a href=""> <span>Guide</span> </a></li>
+                <li><a href=""> <span>Catering</span> </a></li>
+                <li><a href=""> <span>Frachsing</span></a></li>
+                <li><a href=""> <span>About us</span></a></li>
+                <li><a href=""> <span>Contact us</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="img">
+        <img src="LogoSJ.png">
+    </div>
+    <div id="p8">
+    </div>
+    
+    <div class="paragraph">
+       
+     <pre>
+        <div class="headline"><h2>Our Story</h2></div>
+
+         
+        
+        
+        ShrekJuice Centre is a big juice centre famous for variety of juices
+     it provides. We also provide catering service for various events like
+     Wedding, show, party and so on. We empower millions of customer around
+     the world to start and grow their businesses with our smart marketing 
+     technology, award-winning support, and inspring content. Founded in 2010
+     headquartered in VietNam with additional offices in HaNoi, HCM and DaNang
+     is 100% founder-owned and hightly profitable.
+
+
+
+
+
+
+        </pre>
+    </div>
+</body>
+</html>

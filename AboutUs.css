@@ -1,0 +1,24 @@
+.headline{
+    text-align: center;
+    margin: 40px 0px;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+}
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+    background-color: bisque;
+    color: deeppink;
+    text-align: center;
+    background-image: url(bell.png);
+    font-weight: 600;
+}
+
